@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta Settings -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Page Title -->
   <title>Image Gallery</title>
+
+  <!-- External CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+  <!-- Main Gallery Container -->
   <div class="gallery-container">
 
+    <!-- Page Heading -->
     <h1>Image Gallery</h1>
 
+    <!-- Filter Buttons Section -->
     <div class="filter-buttons">
       <button class="active" data-name="all">All</button>
       <button data-name="Cosmetics">Cosmetics</button>
       <button data-name="dresses">Dresses</button>
       <button data-name="Foot wear">Foot wear</button>
-     <button data-name="Accessories">Accessories</button>
+      <button data-name="Accessories">Accessories</button>
     </div>
 
+    <!-- Image Gallery Grid -->
     <div class="image-gallery">
 
+      <!-- Cosmetic Image -->
       <div class="image" data-name="Cosmetics">
         <img src="images/makup1.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="dresses">
+      <!-- Dress Image -->
+      <div class="image" data-name="dresses">
         <img src="images/dress4.jpg" alt="img">
       </div>
 
@@ -34,11 +46,12 @@
         <img src="images/dress1.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Foot wear">
+      <!-- Footwear Image -->
+      <div class="image" data-name="Foot wear">
         <img src="images/fw3.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Cosmetics">
+      <div class="image" data-name="Cosmetics">
         <img src="images/makup5.jpg" alt="img">
       </div>
 
@@ -46,7 +59,7 @@
         <img src="images/fw1.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Cosmetics">
+      <div class="image" data-name="Cosmetics">
         <img src="images/makup6.jpg" alt="img">
       </div>
 
@@ -54,11 +67,12 @@
         <img src="images/makup2.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Accessories">
+      <!-- Accessories Image -->
+      <div class="image" data-name="Accessories">
         <img src="images/acces2.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Accessories">
+      <div class="image" data-name="Accessories">
         <img src="images/access5.jpg" alt="img">
       </div>
 
@@ -66,15 +80,15 @@
         <img src="images/dress2.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="dresses">
+      <div class="image" data-name="dresses">
         <img src="images/dress8.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Accessories">
+      <div class="image" data-name="Accessories">
         <img src="images/access6.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="dresses">
+      <div class="image" data-name="dresses">
         <img src="images/dress5.jpg" alt="img">
       </div>
 
@@ -82,59 +96,59 @@
         <img src="images/fw2.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Foot wear">
+      <div class="image" data-name="Foot wear">
         <img src="images/fw4.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="dresses">
+      <div class="image" data-name="dresses">
         <img src="images/drress3.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="dresses">
+      <div class="image" data-name="dresses">
         <img src="images/dress6.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Accessories">
+      <div class="image" data-name="Accessories">
         <img src="images/access7.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="dresses">
+      <div class="image" data-name="dresses">
         <img src="images/dress7.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Cosmetics">
+      <div class="image" data-name="Cosmetics">
         <img src="images/makup8.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Foot wear">
+      <div class="image" data-name="Foot wear">
         <img src="images/fw5.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Cosmetics">
+      <div class="image" data-name="Cosmetics">
         <img src="images/makup7.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Cosmetics">
+      <div class="image" data-name="Cosmetics">
         <img src="images/makup4 (2).jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Cosmetics">
+      <div class="image" data-name="Cosmetics">
         <img src="images/makup9.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Cosmetics">
+      <div class="image" data-name="Cosmetics">
         <img src="images/makup10.jpg" alt="img">
       </div>
 
-        <div class="image" data-name="Foot wear">
+      <div class="image" data-name="Foot wear">
         <img src="images/fw6.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Accessories">
+      <div class="image" data-name="Accessories">
         <img src="images/acces1.jpg" alt="img">
       </div>
 
-       <div class="image" data-name="Cosmetics">
+      <div class="image" data-name="Cosmetics">
         <img src="images/makup3.jpg" alt="img">
       </div>
 
@@ -142,17 +156,25 @@
 
   </div>
 
- <!-- Full Screen Preview (Lightbox) -->
-<div class="preview-box">
-  <span class="close-btn">&times;</span>
+  <!-- Lightbox / Fullscreen Preview -->
+  <div class="preview-box">
 
-  <button class="prev">&#10094;</button>
+    <!-- Close Button -->
+    <span class="close-btn">&times;</span>
 
-  <img src="" alt="">
+    <!-- Previous Button -->
+    <button class="prev">&#10094;</button>
 
-  <button class="next">&#10095;</button>
-</div>
+    <!-- Preview Image -->
+    <img src="" alt="">
 
+    <!-- Next Button -->
+    <button class="next">&#10095;</button>
+
+  </div>
+
+  <!-- External JavaScript -->
   <script src="script.js"></script>
+
 </body>
 </html>
