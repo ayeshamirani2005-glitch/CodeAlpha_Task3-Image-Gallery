@@ -1,3 +1,4 @@
+/* Reset */
 *{
   margin: 0;
   padding: 0;
@@ -5,22 +6,26 @@
   font-family: sans-serif;
 }
 
+/* Body */
 body{
   background: #f1f1f3;
 }
 
+/* Container */
 .gallery-container{
   width: 100%;
   min-height: 100vh;
   padding: 40px 5%;
 }
 
+/* Heading */
 .gallery-container h1{
   text-align: center;
   margin-bottom: 30px;
   font-size: 40px;
 }
 
+/* Filter buttons */
 .filter-buttons{
   display: flex;
   justify-content: center;
@@ -29,6 +34,7 @@ body{
   margin-bottom: 40px;
 }
 
+/* Button */
 .filter-buttons button{
   padding: 10px 25px;
   border: none;
@@ -39,24 +45,28 @@ body{
   transition: 0.3s;
 }
 
+/* Active & hover */
 .filter-buttons button.active,
 .filter-buttons button:hover{
   background: black;
   color: white;
 }
 
+/* Gallery grid */
 .image-gallery{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   gap: 20px;
 }
 
+/* Image box */
 .image{
   overflow: hidden;
   border-radius: 15px;
   cursor: pointer;
 }
 
+/* Image */
 .image img{
   width: 100%;
   height: 350px;
@@ -64,12 +74,12 @@ body{
   transition: 0.4s;
 }
 
+/* Image hover */
 .image:hover img{
   transform: scale(1.1);
 }
 
-/* Preview Box */
-
+/* Preview box */
 .preview-box{
   position: fixed;
   top: 0;
@@ -83,12 +93,14 @@ body{
   z-index: 100;
 }
 
+/* Preview image */
 .preview-box img{
   width: 90%;
   max-width: 600px;
   border-radius: 15px;
 }
 
+/* Close button */
 .close-btn{
   position: absolute;
   top: 30px;
@@ -97,7 +109,8 @@ body{
   color: white;
   cursor: pointer;
 }
-/* Preview box full screen */
+
+/* Duplicate preview */
 .preview-box {
   position: fixed;
   top: 0;
@@ -110,14 +123,14 @@ body{
   align-items: center;
 }
 
-/* image */
+/* Preview image again */
 .preview-box img {
   max-width: 50%;
   max-height: 100%;
   border-radius: 10px;
 }
 
-/* close button */
+/* Close button again */
 .close-btn {
   position: absolute;
   top: 20px;
@@ -127,7 +140,7 @@ body{
   cursor: pointer;
 }
 
-/* prev & next buttons */
+/* Prev next */
 .prev, .next {
   position: absolute;
   top: 50%;
@@ -139,13 +152,16 @@ body{
   cursor: pointer;
 }
 
+/* Positions */
 .prev { left: 20px; }
 .next { right: 20px; }
 
+/* Hover */
 .prev:hover, .next:hover, .close-btn:hover {
   color: #ff4d6d;
 }
-/* Tablet Devices */
+
+/* Tablet */
 @media (max-width: 992px) {
   .gallery {
     column-count: 2;
@@ -163,7 +179,7 @@ body{
   }
 }
 
-/* Mobile Devices */
+/* Mobile */
 @media (max-width: 600px) {
   .gallery {
     column-count: 1;
